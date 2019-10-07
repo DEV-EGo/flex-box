@@ -30,8 +30,8 @@ body {
 .pizza {
     max-width: 800px;
     border-radius: 4px;
+    overflow: hidden;
     box-shadow: 0 30px 80px 10px rgb(0, 0, 0, .2);
-
     display: flex;
     align-items: stretch;
 
@@ -42,7 +42,7 @@ body {
 }
 
 .pizza__img {
-    width: 37%;
+    width: 100%;
     display: block;
 }
 
@@ -52,6 +52,13 @@ body {
 }
 
 .pizza__price {
-    background: linear-gradient(to bottom, #67b26f, #4ca2cd);
     flex: 0 0 50px;
+    background: linear-gradient(to bottom, #67b26f, #4ca2cd);
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
