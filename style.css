@@ -13,9 +13,33 @@
     box-sizing: border-box;
 }
 
-html,
 body {
     color: #444;
     font-family: 'Cinzel';
     background: linear-gradient(to bottom right, #67b26f, #4ca2cd);
+    height: 100vh;
+}
+
+.pizza {
+    max-width: 800px;
+    border-radius: 4px;
+    box-shadow: 0 30px 80px 10px rgb(0, 0, 0, .2);
+    display: flex;
+}
+
+.pizza__hero {
+
+}
+
+.pizza__content {
+    background: white;
+}
+
+.pizza__price {
+    background: linear-gradient(to bottom, #67b26f, #4ca2cd);
+
+}
+
+.pizza__img {
+    width: 100%;
 }
