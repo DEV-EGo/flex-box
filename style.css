@@ -67,11 +67,12 @@ body {
 .pizza__title{
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .pizza__heading{
     font-size: 20px;
-    flex: 1;
+    margin-right: auto;
 }
 
 .pizza__tag{
@@ -89,4 +90,26 @@ body {
 
 .pizza__tag--2{
     background-color: #4ca2cd;
+}
+
+.pizza__description {
+    font-size: 14px;
+}
+.pizza__details{
+    display: flex;
+}
+
+.pizza__detail{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+}
+
+.emoji {
+    font-size: 20px;
+    margin-right: 3px;
 }
