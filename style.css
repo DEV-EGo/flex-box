@@ -17,7 +17,7 @@ body {
     color: #444;
     font-family: 'Cinzel';
     padding: 50px;
-    background: linear-gradient(to bottom right, #67b26f, #4ca2cd);
+    background: linear-gradient(to bottom left, #019af3b4, #bd00f688);
     height: 100vh;
 
     display: flex;
@@ -50,6 +50,9 @@ body {
     flex: 1;
     background: white;
     padding: 35px 30px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .pizza__price {
@@ -97,6 +100,8 @@ body {
 }
 .pizza__details{
     display: flex;
+    margin-top: auto;
+
 }
 
 .pizza__detail{
